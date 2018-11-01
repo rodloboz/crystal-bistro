@@ -1,0 +1,1 @@
+class MealsView < BaseView; end
