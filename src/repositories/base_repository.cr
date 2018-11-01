@@ -2,7 +2,6 @@ class BaseRepository
   def initialize(csv_file : String)
     @csv_file = csv_file
     @next_id = 1
-    @elements = Array(Meal | Customer).new
     load_csv if File.exists?(csv_file)
   end
 
