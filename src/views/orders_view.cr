@@ -1,0 +1,1 @@
+class OrdersView < BaseView; end

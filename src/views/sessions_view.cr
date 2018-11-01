@@ -1,5 +1,3 @@
-# require 'io/console'
-
 class SessionsView
   def ask_for_username
     puts "What's the username?"
@@ -8,8 +6,7 @@ class SessionsView
 
   def ask_for_password
     puts "What's the password?"
-    gets.not_nil!
-    # STDIN.noecho(&:gets).chomp
+    STDIN.noecho(&.gets).not_nil!
   end
 
   def welcome_user

@@ -9,7 +9,7 @@ class BaseRepository
     @elements
   end
 
-  def add(element : Meal | Customer)
+  def add(element : Meal | Customer | Order)
     element.id = @next_id
     @next_id += 1
     @elements << element
