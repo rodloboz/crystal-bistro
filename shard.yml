@@ -1,0 +1,13 @@
+name: food-delivery
+version: 0.1.0
+
+authors:
+  - Rui Freitas <dinnerpartysaboteur@gmail.com>
+
+targets:
+  food-delivery:
+    main: src/food-delivery.cr
+
+crystal: 0.26.1
+
+license: MIT
