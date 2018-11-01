@@ -4,4 +4,4 @@ A rewrite in `crystal` of the `ruby` Food Delivery challenge from [Le Wagon's](<
 
 ## Contributors
 
-- [your-github-user](https://github.com/your-github-user) Rui Freitas - creator, maintainer
+- [Rui Freitas](https://github.com/rodloboz) - creator, maintainer
